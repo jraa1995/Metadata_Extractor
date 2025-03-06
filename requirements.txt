@@ -1,0 +1,14 @@
+pandas==2.2.1        # Core data processing for CSV and Excel files
+openpyxl==3.1.2      # Excel file support in pandas
+chardet==5.2.0       # Encoding detection for text files
+xlrd==2.0.1          # Support for older .xls files (optional)
+pyarrow==15.0.0      # Efficient handling of .parquet, .feather, and large datasets (optional)
+pyyaml==6.0.1        # YAML file parsing (optional)
+pytest==8.1.1        # Advanced testing framework (optional)
+flake8==7.0.0        # Code linting for quality control (optional)
+black==24.2.0        # Code formatting for consistency (optional)
+requests==2.31.0     # Fetch remote files via URL (optional)
+flask==3.0.2         # Web interface for file uploads (optional, alternative to fastapi)
+fastapi==0.109.0     # Modern web interface for file uploads (optional, alternative to flask)
+psutil==5.9.8        # System resource monitoring (optional)
+tqdm==4.66.2         # Progress bars for long operations (optional)

@@ -1,0 +1,28 @@
+# compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# venv
+venv/
+env/
+.venv/
+
+# logs
+logs/
+*.log
+
+# data files
+data/*.csv
+data/*.xlsx
+data/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# windows
+Thumbs.db
+Desktop.ini
